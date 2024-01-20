@@ -31,10 +31,10 @@ xxx
 Após o confronto das tropas, será verificado as unidades restantes no ataque e defesa. Se foi feito um ataque junto com espiões e eles sobreviveram no confronto das tropas, então será feito o confronto dos espiões, aqui também 1 para 1. Quantidade de espiões do ataque contra a quantidade de espiões na defesa. Nesse confrotno os espiões não morrem mais, só verificado a quantidade de espiões do ataque que serão eficientes na espionagem. o resultado dos espiões do ataque após esse confronto será o nível de espionagem que o ataque terá.
 Segundo a tabela a baixo:
 
-1. > <= 5 espiões  = recursos totais da defesa
-2. > \> 5 e <= 15 = quantidade de unidades na defesa (- diplomatas)
-3. > \> 15 e <= 20 = lista de edifícios e niveis
-4. > \> 20 = lista de diplomatas
+1. Recursos do batalhao ( <= 5 espiões )
+2. Quantidade de unidades - diplomatas ( \> 5 e <= 15 espiões )
+3. Lista de edifícios e seus níveis ( \> 15 e <= 20 espiões )
+4. Quantidade de Diplomatas ( \> 20 espiões )
 
 ### 5 - Ação dos diplomatas
 xxxx
