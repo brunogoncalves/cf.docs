@@ -46,5 +46,5 @@ Quando a vida do batalhão chegar a zero o mesmo será conquistado, passado o co
 ### 6 - Saquear os recursos
 Nesta etapa, se na etapa dos diplomatas o batalhão não foi conquistado, será avaliado a `capacidade de carga` da tropa que irá retornar a base e saquear proprorcionalmente os recursos do batalhão atacado. E esses recursos saquedos irão retornar junto com a tropa e creditados quando a tropa retornar a base.
 
-### 7 - retornar a base
+### 7 - Retornar a base
 Não sendo conquistado o batalhão, a tropa restante irão voltar a base e irão levar o tempo necessário conforme a velocidade da tropa restante.
