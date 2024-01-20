@@ -25,7 +25,7 @@ Quando o nivel do edificio chegar a zero o mesmo eh destruido.
 Ainda nessa fase um ataque com com tanques irão nessa etapa danificar as torres, podendo baixar os seus bonus na defesa.
 
 ### 3 - Confronto das tropas
-xxx
+-----???
 
 ### 4- Espionagem
 Após o confronto das tropas, será verificado as unidades restantes no ataque e defesa. Se foi feito um ataque junto com espiões e eles sobreviveram no confronto das tropas, então será feito o confronto dos espiões, aqui também 1 para 1. Quantidade de espiões do ataque contra a quantidade de espiões na defesa. Nesse confrotno os espiões não morrem mais, só verificado a quantidade de espiões do ataque que serão eficientes na espionagem. o resultado dos espiões do ataque após esse confronto será o nível de espionagem que o ataque terá.
@@ -39,10 +39,12 @@ Segundo a tabela a baixo:
 | 4     | Quantidade de Diplomatas            | \> 25 espiões          |
 
 ### 5 - Ação dos diplomatas
-xxxx
+Nesta fase será verificado se o ataque foi realizado junto com `diplomatas`, neste caso e sobrevivendo depois do confronto das tropas, o batalhão sob ataque irá sofrer perda de vida do seu batalhão entre um intervalo de minimo e maximo configurado no mundo em questão + 5 pontos de vida para cada diplomata que sobfreviveu, respeitando a perda máxima configurada.
+
+Quando a vida do batalhão chegar a zero o mesmo será conquistado, passado o controle do batalhão atacado para o atacante. E a tropa restante ficará no batalhão para dar apoio.
 
 ### 6 - Saquear os recursos
-xxx
+Nesta etapa, se na etapa dos diplomatas o batalhão não foi conquistado, será avaliado a `capacidade de carga` da tropa que irá retornar a base e saquear proprorcionalmente os recursos do batalhão atacado. E esses recursos saquedos irão retornar junto com a tropa e creditados quando a tropa retornar a base.
 
 ### 7 - retornar a base
-xxx
+Não sendo conquistado o batalhão, a tropa restante irão voltar a base e irão levar o tempo necessário conforme a velocidade da tropa restante.
