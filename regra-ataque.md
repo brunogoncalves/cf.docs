@@ -28,15 +28,15 @@ Ainda nessa fase um ataque com com tanques irão nessa etapa danificar as torres
 -----???
 
 ### 4- Espionagem
-Após o confronto das tropas, será verificado as unidades restantes no ataque e defesa. Se foi feito um ataque junto com espiões e eles sobreviveram no confronto das tropas, então será feito o confronto dos espiões, aqui também 1 para 1. Quantidade de espiões do ataque contra a quantidade de espiões na defesa. Nesse confrotno os espiões não morrem mais, só verificado a quantidade de espiões do ataque que serão eficientes na espionagem. o resultado dos espiões do ataque após esse confronto será o nível de espionagem que o ataque terá.
+Após o confronto das tropas, será verificado as unidades restantes no ataque e defesa. Se foi feito um ataque junto com espiões e eles sobreviveram no confronto das tropas, então será verificado o nivel de espionagem. Para determinal o nivel de espionagem serão avalidados os espiões que retornarão a base.
 Segundo a tabela a baixo:
 
 | Nível | Revelar                             | Condição               |
 |:-----:|:------------------------------------|:-----------------------|
-| 1     | Recursos do batalhão                | <= 5 espiões           |
-| 2     | Quantidade de unidades - diplomatas | \> 5 e <= 15 espiões   |
-| 3     | Lista de edifícios e seus níveis    | \> 15 e <= 25 espiões  |
-| 4     | Quantidade de Diplomatas            | \> 25 espiões          |
+| 1     | Quantidade de unidades              | \>= 1 espião retornou  |
+| 2     | Quantidade de recursos do defensor  | \>= 50% retornaram     |
+| 3     | Lista de edifícios e seus níveis    | \>= 70% retornaram     |
+| 4     | Unidades fora do batalhão           | \>= 90% retornaram     |
 
 ### 5 - Ação dos diplomatas
 Nesta fase será verificado se o ataque foi realizado junto com `diplomatas`, neste caso e sobrevivendo depois do confronto das tropas, o batalhão sob ataque irá sofrer perda de vida do seu batalhão entre um intervalo de minimo e maximo configurado no mundo em questão + 5 pontos de vida para cada diplomata que sobfreviveu, respeitando a perda máxima configurada.
